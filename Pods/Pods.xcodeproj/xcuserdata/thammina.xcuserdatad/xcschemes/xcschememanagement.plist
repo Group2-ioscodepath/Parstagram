@@ -17,12 +17,20 @@
 		<key>Bolts.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>2</integer>
+=======
+			<integer>4</integer>
+>>>>>>> parent of 132a57e... change
 		</dict>
 		<key>Parse-Parse.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>4</integer>
+=======
+			<integer>2</integer>
+>>>>>>> parent of 132a57e... change
 		</dict>
 		<key>Parse.xcscheme_^#shared#^_</key>
 		<dict>
@@ -32,7 +40,7 @@
 		<key>Pods-Parstagram.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
 		</dict>
 	</dict>
 </dict>
