@@ -2,15 +2,23 @@
 # platform :ios, '9.0'
 
 target 'Parstagram' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for MyApp
-  # This pulls in the latest version of Alamofire >= 4.4 but less than 5.0.
-  pod 'Alamofire', '~> 4.4'
-  # Add additional dependencies
-  pod 'OAuthSwift', '~> 1.1.0'
-  pod 'OAuthSwiftAlamofire'
+  # Pods for Parstagram
+
+  target 'ParstagramTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ParstagramUITests' do
+    # Pods for testing
+  end
+  # Add Parse pods and install
   pod 'Parse'
+  # Add AlamofireImage and install
+  pod 'AlamofireImage'
   pod 'MessageInputBar'
+
 end

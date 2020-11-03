@@ -198,6 +198,23 @@
                                             <outlet property="nameLabel" destination="bB4-B1-gVh" id="bOa-Yl-SkF"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddCommentCell" id="UxK-GX-fp3">
+                                        <rect key="frame" x="0.0" y="595.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UxK-GX-fp3" id="IVN-BP-y5T">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add a comment here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dla-XO-krs">
+                                                    <rect key="frame" x="41" y="11" width="159" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
@@ -207,7 +224,7 @@
                     <navigationItem key="navigationItem" id="xla-0I-X7I">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="iZB-tL-Wv1">
                             <connections>
-                                <action selector="onLogoutButton:" destination="lqS-dI-56c" id="e2G-Vk-z3A"/>
+                                <action selector="onLogout:" destination="lqS-dI-56c" id="6wF-fv-aAh"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="MFQ-DR-6Iz">
