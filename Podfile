@@ -12,5 +12,5 @@ target 'Parstagram' do
   pod 'OAuthSwift', '~> 1.1.0'
   pod 'OAuthSwiftAlamofire'
   pod 'Parse'
-  
+  pod 'MessageInputBar'
 end
